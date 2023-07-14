@@ -5,7 +5,7 @@
     </div>
     <div class="row">
         <div class="col-md-6 offset-md-3">
-            <form id="receiptForm">
+            <form id="submitForm">
                 <div id="validity-message">
                     <?php
                         if(isset($validity['resp_code'])){
@@ -14,72 +14,72 @@
                     ?>
                 </div>
                 <div class="row">
-                    <label for="amount" class="col-sm-2 col-form-label col-form-label-sm">Amount</label>
-                    <div class="col-sm-10">
+                    <label for="amount" class="col-sm-3 col-form-label col-form-label-sm">Amount</label>
+                    <div class="col-sm-9">
                     <input type="text" name="amount" class="form-control form-control-sm" id="amount">
                     <span id="amount-info" class="info"></span><br /> 
                     </div>
                 </div>
     
                 <div class="row">
-                    <label for="amount" class="col-sm-2 col-form-label col-form-label-sm">Buyer</label>
-                    <div class="col-sm-10">
+                    <label for="amount" class="col-sm-3 col-form-label col-form-label-sm">Buyer Name</label>
+                    <div class="col-sm-9">
                     <input type="text" name="buyer" class="form-control form-control-sm" id="buyer">
                     <span id="buyer-info" class="info"></span><br /> 
                     </div>
                 </div>
     
                 <div class="row">
-                    <label for="receipt" class="col-sm-2 col-form-label col-form-label-sm">Receipt ID</label>
-                    <div class="col-sm-10">
+                    <label for="receipt" class="col-sm-3 col-form-label col-form-label-sm">Receipt ID</label>
+                    <div class="col-sm-9">
                     <input type="text" name="receipt_id" class="form-control form-control-sm" id="receipt">
                     <span id="receipt-info" class="info"></span><br /> 
                     </div>
                 </div>
     
                 <div class="row">
-                    <label for="items" class="col-sm-2 col-form-label col-form-label-sm">Items</label>
-                    <div class="col-sm-10">
+                    <label for="items" class="col-sm-3 col-form-label col-form-label-sm">Items</label>
+                    <div class="col-sm-9">
                     <input type="text" name="items" class="form-control form-control-sm" id="items">
                     <span id="items-info" class="info"></span><br /> 
                     </div>
                 </div>
     
                 <div class="row">
-                    <label for="buyer-email" class="col-sm-2 col-form-label col-form-label-sm">Items</label>
-                    <div class="col-sm-10">
+                    <label for="buyer-email" class="col-sm-3 col-form-label col-form-label-sm">Buyer Email</label>
+                    <div class="col-sm-9">
                     <input type="text" name="buyer_email" class="form-control form-control-sm" id="buyer-email">
                     <span id="buyer-email-info" class="info"></span><br /> 
                     </div>
                 </div>
     
                 <div class="row">
-                    <label for="note" class="col-sm-2 col-form-label col-form-label-sm">Note</label>
-                    <div class="col-sm-10">
+                    <label for="note" class="col-sm-3 col-form-label col-form-label-sm">Note</label>
+                    <div class="col-sm-9">
                     <textarea name="note" class="form-control form-control-sm" id="note"></textarea>
                     <span id="note" class="info"></span><br /> 
                     </div>
                 </div>
     
                 <div class="row">
-                    <label for="city" class="col-sm-2 col-form-label col-form-label-sm">City</label>
-                    <div class="col-sm-10">
+                    <label for="city" class="col-sm-3 col-form-label col-form-label-sm">City</label>
+                    <div class="col-sm-9">
                     <input type="text" name="city" class="form-control form-control-sm" id="city">
                     <span id="city-info" class="info"></span><br /> 
                     </div>
                 </div>
     
                 <div class="row">
-                    <label for="phone" class="col-sm-2 col-form-label col-form-label-sm">Phone</label>
-                    <div class="col-sm-10">
+                    <label for="phone" class="col-sm-3 col-form-label col-form-label-sm">Phone</label>
+                    <div class="col-sm-9">
                     <input type="text" name="phone" class="form-control form-control-sm" id="phone">
                     <span id="phone-info" class="info"></span><br /> 
                     </div>
                 </div>
     
                 <div class="row">
-                    <label for="entry-by" class="col-sm-2 col-form-label col-form-label-sm">Entry By</label>
-                    <div class="col-sm-10">
+                    <label for="entry-by" class="col-sm-3 col-form-label col-form-label-sm">Entry By</label>
+                    <div class="col-sm-9">
                     <input type="number" name="entry_by" class="form-control form-control-sm" id="entry-by">
                     <span id="entry-by-info" class="info"></span><br /> 
                     </div>
