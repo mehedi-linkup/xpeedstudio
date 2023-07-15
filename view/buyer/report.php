@@ -46,7 +46,7 @@
         <a class="btn btn-sm btn-primary" id="btnAddAction" href="index.php?action=buyer-add">Generate Receipt</a>
     </div>
     <div class="table-responsive">
-        <table class="table">
+        <table id="example" class="display" style="width:100%">
             <thead>
                 <tr>
                     <th>Serial No</th>

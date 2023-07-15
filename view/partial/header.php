@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="view/img/receipt_icon.png" type="image/x-icon">
     <link rel="stylesheet" href="view/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.5/css/jquery.dataTables.min.css">
     <title>Xspeed Studio Task - Receipt</title>
 </head>
 <body>
