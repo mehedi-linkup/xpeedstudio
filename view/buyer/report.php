@@ -42,8 +42,8 @@
             </form>
         </div>
     </div>
-    <div style="text-align: right; margin: 20px 0px 10px; padding-right: 300px;">
-        <a id="btnAddAction" href="index.php?action=buyer-add">Generate Receipt</a>
+    <div style="text-align: left; margin: 5px 0px 10px; padding-left: 20px; padding-top: 10px;">
+        <a class="btn btn-sm btn-primary" id="btnAddAction" href="index.php?action=buyer-add">Generate Receipt</a>
     </div>
     <div class="table-responsive">
         <table class="table">

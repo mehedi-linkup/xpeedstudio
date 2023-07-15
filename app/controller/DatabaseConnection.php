@@ -13,7 +13,7 @@ class DatabaseConnection {
 
     public function allDataQuery($query) {
         $result = $this->connection->query($query);  
-        
+        $resultset = [];
         if ($result->num_rows > 0) {
             while($row = $result->fetch_assoc()) {
                 $resultset[] = $row;
@@ -28,6 +28,8 @@ class DatabaseConnection {
         $sql->execute();
         $result = $sql->get_result();
         
+        $resultset = [];
+
         if ($result->num_rows > 0) {
             while($row = $result->fetch_assoc()) {
                 $resultset[] = $row;
